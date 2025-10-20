@@ -1,0 +1,788 @@
+{
+  "IgnorePhrases": [
+    {
+      "Phrase": "All rights reserved",
+      "Variants": [
+        "All rights reserved"
+      ]
+    },
+    {
+      "Phrase": "High performance",
+      "Variants": [
+        "High performance"
+      ]
+    },
+    {
+      "Phrase": "subject to change without notice",
+      "Variants": [
+        "subject to change without notice",
+        "Information and specifications subject to change without notice"
+      ]
+    }
+  ],
+  "Phrases": [
+    {
+      "Phrase": "0-10V",
+      "Variants": [
+        "0-10V",
+        "0-10V dimming"
+      ]
+    },
+    {
+      "Phrase": "1\" stroke",
+      "Variants": []
+    },
+    {
+      "Phrase": "10% dimming",
+      "Variants": [
+        "10% dimming",
+        "10% dimming standard"
+      ]
+    },
+    {
+      "Phrase": "120-277V",
+      "Variants": [
+        "120-277V",
+        "Universal voltage",
+        "Universal voltage standard",
+        "120/277VAC",
+        "120/277"
+      ],
+      "Patterns": [
+        "###-###V",
+        "###-### VAC",
+        "###/###V",
+        "###/### VAC"
+      ]
+    },
+    {
+      "Phrase": "3.5 W",
+      "Variants": [
+        "3.5 watt",
+        "3.5 watt max"
+      ]
+    },
+    {
+      "Phrase": "3.6VDC - 2.2W",
+      "Variants": [
+        "3.6VDC - 2.2W",
+        "3.6V DC - 2.2W",
+        "3.6VDC 2.2W"
+      ]
+    },
+    {
+      "Phrase": "3/4\"",
+      "Variants": [
+        "3/4\" stroke"
+      ]
+    },
+    {
+      "Phrase": "45VL",
+      "Variants": []
+    },
+    {
+      "Phrase": "50-60Hz",
+      "Variants": [
+        "50-60Hz",
+        "50/60Hz"
+      ]
+    },
+    {
+      "Phrase": "8\" Letters",
+      "Variants": [
+        "New City City Approved",
+        "NYC Approved"
+      ]
+    },
+    {
+      "Phrase": "AFC",
+      "Variants": [
+        "available fault current",
+        "MAFC",
+        "maximum available fault current"
+      ],
+      "Patterns": [
+        "###AFC",
+        "####AFC",
+        "## kAIC",
+        "### kAIC"
+      ]
+    },
+    {
+      "Phrase": "ANSI",
+      "Variants": [
+        "ANSI compliant",
+        "ANSI/IEEE"
+      ]
+    },
+    {
+      "Phrase": "CCT",
+      "Variants": [
+        "color temp"
+      ],
+      "Patterns": [
+        "####K",
+        "#### KELVIN",
+        "#### K"
+      ]
+    },
+    {
+      "Phrase": "CETL",
+      "Variants": [
+        "CETL listed",
+        "CETL certified",
+        "Canadian Electrical Testing Laboratories"
+      ]
+    },
+    {
+      "Phrase": "Color",
+      "Variants": [
+        "White",
+        "black",
+        "metallic silver",
+        "silver",
+        "matte black"
+      ],
+      "Patterns": [
+        "* finish",
+        "####K",
+        "#### KELVIN",
+        "###nm"
+      ]
+    },
+    {
+      "Phrase": "ER45VXL",
+      "Variants": []
+    },
+    {
+      "Phrase": "ETL",
+      "Variants": [
+        "ETL listed",
+        "ETL certified",
+        "Electrical testing laboratories"
+      ]
+    },
+    {
+      "Phrase": "HID",
+      "Variants": [
+        "high intensity discharge"
+      ]
+    },
+    {
+      "Phrase": "IBC",
+      "Variants": [
+        "international building code"
+      ]
+    },
+    {
+      "Phrase": "IK07",
+      "Variants": [
+        "IK07",
+        "IK07 impact",
+        "IK07 rated",
+        "IK07 impact rated"
+      ]
+    },
+    {
+      "Phrase": "IP65",
+      "Variants": [
+        "IP 65"
+      ]
+    },
+    {
+      "Phrase": "IP66",
+      "Variants": [
+        "IP66",
+        "IP 66",
+        "IP66 rated"
+      ]
+    },
+    {
+      "Phrase": "LED",
+      "Variants": [
+        "LED light",
+        "LED lighting",
+        "LED lamp"
+      ]
+    },
+    {
+      "Phrase": "Lumen",
+      "Variants": [
+        "Lumen"
+      ],
+      "Patterns": [
+        "##,### lumens",
+        "### lumens"
+      ]
+    },
+    {
+      "Phrase": "NEC",
+      "Variants": [
+        "National Electric Code"
+      ]
+    },
+    {
+      "Phrase": "NEMA",
+      "Variants": [
+        "NEMA 1"
+      ]
+    },
+    {
+      "Phrase": "NFPA",
+      "Variants": [
+        "National Fire Protection Association"
+      ]
+    },
+    {
+      "Phrase": "NFPA 101",
+      "Variants": [
+        "National Fire Protection Association 101",
+        "Life Safety Code"
+      ]
+    },
+    {
+      "Phrase": "NFPA 70",
+      "Variants": [
+        "National Fire Protection Association 70",
+        "National Electric Code",
+        "NEC 70"
+      ]
+    },
+    {
+      "Phrase": "NOL",
+      "Variants": [
+        "normally off load"
+      ]
+    },
+    {
+      "Phrase": "OCB",
+      "Variants": [
+        "output circuit breaker",
+        "output circuit breaker with alarm",
+        "OCBA"
+      ]
+    },
+    {
+      "Phrase": "OSHA",
+      "Variants": [
+        "Occupational Safety and Health Administration",
+        "OSHA certified"
+      ]
+    },
+    {
+      "Phrase": "PWM",
+      "Variants": [
+        "pulse width modulated"
+      ]
+    },
+    {
+      "Phrase": "Pendant",
+      "Variants": [
+        "Pendant mount",
+        "Pendant",
+        "Pendant mount"
+      ]
+    },
+    {
+      "Phrase": "Single output",
+      "Variants": [
+        "Single output circuit breaker"
+      ]
+    },
+    {
+      "Phrase": "THD",
+      "Variants": [
+        "total harmonic distortion",
+        "input harmonic distortion",
+        "harmony"
+      ],
+      "Patterns": [
+        "##% THD",
+        "###% THD"
+      ]
+    },
+    {
+      "Phrase": "UL",
+      "Variants": [
+        "UL listed",
+        "UL certified",
+        "Underwriters Laboratories"
+      ]
+    },
+    {
+      "Phrase": "UL1598",
+      "Variants": [
+        "UL 1598",
+        "UL1598"
+      ]
+    },
+    {
+      "Phrase": "UL924",
+      "Variants": [
+        "UL 924",
+        "UL 924 listed",
+        "UL 924 compliant",
+        "Standard 924"
+      ],
+      "Patterns": []
+    },
+    {
+      "Phrase": "UL94",
+      "Variants": [
+        "UL 94",
+        "UL94"
+      ]
+    },
+    {
+      "Phrase": "UPS",
+      "Variants": [
+        "Uninterruptible Power Supply"
+      ]
+    },
+    {
+      "Phrase": "aluminum",
+      "Variants": [
+        "die-cast aluminum",
+        "die cast aluminum",
+        "brushed aluminum",
+        "satin aluminum",
+        "extruded aluminum"
+      ]
+    },
+    {
+      "Phrase": "angle",
+      "Variants": [
+        "adjustable angle",
+        "right angle",
+        "left angle"
+      ],
+      "Patterns": [
+        "##°",
+        "###°"
+      ]
+    },
+    {
+      "Phrase": "anodized",
+      "Variants": [
+        "anodized finish"
+      ]
+    },
+    {
+      "Phrase": "auxiliary",
+      "Variants": [
+        "auxilary power",
+        "auxilary equipment"
+      ]
+    },
+    {
+      "Phrase": "battery",
+      "Variants": [
+        "nickle cadmium battery",
+        "battery back up",
+        "nickle metal hydride battery"
+      ]
+    },
+    {
+      "Phrase": "brownout",
+      "Variants": [
+        "brownout protection"
+      ]
+    },
+    {
+      "Phrase": "california energy commission",
+      "Variants": []
+    },
+    {
+      "Phrase": "ceiling mount",
+      "Variants": [
+        "ceiling mounting"
+      ]
+    },
+    {
+      "Phrase": "conversion",
+      "Variants": [
+        "Double conversion"
+      ]
+    },
+    {
+      "Phrase": "corridor",
+      "Variants": []
+    },
+    {
+      "Phrase": "discrete area",
+      "Variants": [
+        "discrete area"
+      ]
+    },
+    {
+      "Phrase": "dual voltage",
+      "Variants": []
+    },
+    {
+      "Phrase": "emergency",
+      "Variants": [
+        "emergency lighting",
+        "emergency operation",
+        "emergency battery",
+        "emergency power"
+      ]
+    },
+    {
+      "Phrase": "end mount",
+      "Variants": [
+        "end mounting",
+        "end mounted"
+      ]
+    },
+    {
+      "Phrase": "faceplate",
+      "Variants": []
+    },
+    {
+      "Phrase": "flame rated",
+      "Variants": []
+    },
+    {
+      "Phrase": "fluorescent",
+      "Variants": [
+        "fluorescent lamp",
+        "fluorescent lighting"
+      ]
+    },
+    {
+      "Phrase": "foot-candle",
+      "Variants": [
+        "footcandle",
+        "FC"
+      ],
+      "Patterns": [
+        "#.# foot-candles",
+        "##.# foot-candles",
+        "###.# foot-candles",
+        "#.# FC",
+        "##.# FC",
+        "###.# FC"
+      ]
+    },
+    {
+      "Phrase": "free standing",
+      "Variants": []
+    },
+    {
+      "Phrase": "frequency",
+      "Variants": [
+        "frequency range"
+      ],
+      "Patterns": [
+        "## Hz",
+        "### Hz",
+        "##.# Hz",
+        "±## Hz",
+        "±#.# Hz"
+      ]
+    },
+    {
+      "Phrase": "high bay",
+      "Variants": [
+        "high bay"
+      ]
+    },
+    {
+      "Phrase": "housing",
+      "Variants": [
+        "housing",
+        "thermoplastic housing"
+      ]
+    },
+    {
+      "Phrase": "indicator",
+      "Variants": [
+        "status indicator",
+        "LED indicator",
+        "indicator light"
+      ]
+    },
+    {
+      "Phrase": "junction box",
+      "Variants": [
+        "j-box",
+        "j-boxes"
+      ]
+    },
+    {
+      "Phrase": "knockout",
+      "Variants": []
+    },
+    {
+      "Phrase": "linear",
+      "Variants": [
+        "linear",
+        "ultra-slim linear"
+      ]
+    },
+    {
+      "Phrase": "load power factor",
+      "Variants": [
+        "load power factor correction"
+      ],
+      "Patterns": [
+        "#.# lead",
+        "#.# lag",
+        "##.# lead",
+        "##.# lag",
+        "#.# lead to #.# lag"
+      ]
+    },
+    {
+      "Phrase": "low voltage",
+      "Variants": [
+        "low voltage protection",
+        "low voltage disconnect",
+        "LVD"
+      ]
+    },
+    {
+      "Phrase": "lumens per watt",
+      "Variants": [
+        "lumens per watt"
+      ]
+    },
+    {
+      "Phrase": "microprocessor",
+      "Variants": []
+    },
+    {
+      "Phrase": "mirror",
+      "Variants": [
+        "mirror inserts"
+      ]
+    },
+    {
+      "Phrase": "noise",
+      "Variants": [
+        "noise less",
+        "audible"
+      ],
+      "Patterns": [
+        "<## dB",
+        "## dB",
+        "### dB"
+      ]
+    },
+    {
+      "Phrase": "overcharge",
+      "Variants": [
+        "overcharge protection",
+        "overload",
+        "overload rating"
+      ]
+    },
+    {
+      "Phrase": "plane",
+      "Variants": [
+        "adjustable plane",
+        "tilted plane",
+        "fixed plane",
+        "floor plane"
+      ]
+    },
+    {
+      "Phrase": "polycarbonate lens",
+      "Variants": [
+        "polycarbonate lens"
+      ]
+    },
+    {
+      "Phrase": "powdercoat",
+      "Variants": [
+        "powdercoat",
+        "powdercoat finishes",
+        "powder coat"
+      ]
+    },
+    {
+      "Phrase": "recess",
+      "Variants": [
+        "recessed"
+      ]
+    },
+    {
+      "Phrase": "rigid",
+      "Variants": [
+        "rigid canopy"
+      ]
+    },
+    {
+      "Phrase": "seismic",
+      "Variants": [
+        "Seismic anchoring"
+      ]
+    },
+    {
+      "Phrase": "self-diagnostics",
+      "Variants": [
+        "self-diagnostics",
+        "self test",
+        "self testing",
+        "self-test"
+      ]
+    },
+    {
+      "Phrase": "solid state",
+      "Variants": [
+        "solid state transfer circuit"
+      ]
+    },
+    {
+      "Phrase": "stairwell",
+      "Variants": [
+        "stairs"
+      ]
+    },
+    {
+      "Phrase": "surface mount",
+      "Variants": [
+        "surface mounting",
+        "surface mounted"
+      ]
+    },
+    {
+      "Phrase": "surge protection",
+      "Variants": [
+        "surge protected",
+        "voltage surge protection"
+      ]
+    },
+    {
+      "Phrase": "temperature",
+      "Variants": [
+        "temperature",
+        "temperature range",
+        "Operating temperature range"
+      ],
+      "Patterns": [
+        "-## degree C",
+        "## degree C",
+        "-## degree F",
+        "## degree F",
+        "##˚F",
+        "##˚C",
+        "##°C to ##°C",
+        "##°F to ##°F"
+      ]
+    },
+    {
+      "Phrase": "test_02",
+      "Variants": [
+        "example_variant",
+        "example_variant_2"
+      ],
+      "Patterns": []
+    },
+    {
+      "Phrase": "thru-wall",
+      "Variants": [
+        "thru wall"
+      ]
+    },
+    {
+      "Phrase": "title 20",
+      "Variants": [
+        "Title 20 compliant",
+        "California Title 20",
+        "Title 20 compliant (battery charger)"
+      ]
+    },
+    {
+      "Phrase": "transformer",
+      "Variants": [
+        "isolation transformer",
+        "isolating transformer"
+      ]
+    },
+    {
+      "Phrase": "uninterruptible",
+      "Variants": [
+        "uninterruptible power supply"
+      ]
+    },
+    {
+      "Phrase": "universal mount",
+      "Variants": []
+    },
+    {
+      "Phrase": "wall mount",
+      "Variants": [
+        "wall mounting",
+        "wall mounted"
+      ]
+    },
+    {
+      "Phrase": "warranty",
+      "Variants": [
+        "warranty"
+      ],
+      "Patterns": [
+        "# year warranty",
+        "## year warranty",
+        "year warranty"
+      ]
+    },
+    {
+      "Phrase": "wattage",
+      "Variants": [
+        "wattage"
+      ],
+      "Patterns": [
+        "#W",
+        "##W",
+        "#.#W",
+        "##.#W",
+        "###W",
+        "####W",
+        "# watt",
+        "## watt",
+        "### watt",
+        "#### watt"
+      ]
+    },
+    {
+      "Phrase": "wave",
+      "Variants": [
+        "wave form",
+        "sine wave"
+      ]
+    },
+    {
+      "Phrase": "weight",
+      "Variants": [
+        "weight"
+      ],
+      "Patterns": [
+        "## lbs",
+        "weight ## lbs"
+      ]
+    },
+    {
+      "Phrase": "welded",
+      "Variants": [
+        "ultrasonically welded"
+      ]
+    },
+    {
+      "Phrase": "wet location",
+      "Variants": [
+        "wet location",
+        "damp lamp",
+        "damp location",
+        "damp locations"
+      ]
+    },
+    {
+      "Phrase": "zinc",
+      "Variants": [
+        "zinc-plated"
+      ]
+    }
+  ]
+}
