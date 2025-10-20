@@ -1,19 +1,23 @@
 #!/usr/bin/env bash
 
-# ---- functions above ----
+MAIN_SCRIPT=$(readlink -f "${BASH_SOURCE[0]}")
+SCRIPT_DIR=$(dirname "$MAIN_SCRIPT")
+json="$SCRIPT_DIR/Phrases.json"
+tempJson="$SCRIPT_DIR/tmp.json"
+
 save_file() {
-    mv tmp.json Phrases.json
+    mv "$tempJson" "$json"
 }
 
-new_p() {
+newp() {
     local phrase="$1"
     jq --arg phrase "$phrase" '
         .Phrases += [{"Phrase": $phrase, "Variants": [], "Patterns": []}]
         | .Phrases |= sort_by(.Phrase)
-    ' Phrases.json > tmp.json && save_file
+    ' "$json" > "$tempJson" && save_file
 }
 
-new_v() {
+newv() {
     local phrase="$1"
     local variant="$2"
     jq --arg phrase "$phrase" --arg variant "$variant" '
@@ -26,10 +30,10 @@ new_v() {
             end
         )
         | .Phrases |= sort_by(.Phrase)
-    ' Phrases.json > tmp.json && save_file
+    ' "$json" > "$tempJson" && save_file
 }
 
-new_pt() {
+newpt() {
     local phrase="$1"
     local pattern="$2"
     jq --arg phrase "$phrase" --arg pattern "$pattern" '
@@ -42,18 +46,35 @@ new_pt() {
             end
         )
         | .Phrases |= sort_by(.Phrase)
-    ' Phrases.json > tmp.json && save_file
+    ' "$json" > "$tempJson" && save_file
 }
 
-del_p() {
+newh() {
+    local phrase="$1"
+    local href="$2"
+
+    jq --arg phrase "$phrase" --arg href "$href" '
+        .Phrases |= map(
+            if .Phrase == $phrase then
+                .HREF += [$href]
+                | .HREF |= (sort | unique)
+            else
+                .
+            end
+        )
+        | .Phrases |= sort_by(.Phrase)
+    ' "$json" > "$tempJson" && save_file
+}
+
+delp() {
     local phrase="$1"
     jq --arg phrase "$phrase" '
         .Phrases |= map(select(.Phrase != $phrase))
         | .Phrases |= sort_by(.Phrase)
-    ' Phrases.json > tmp.json && save_file
+    ' "$json" > "$tempJson" && save_file
 }
 
-del_v() {
+delv() {
     local phrase="$1"
     local variant="$2"
     jq --arg phrase "$phrase" --arg variant "$variant" '
@@ -65,25 +86,20 @@ del_v() {
             end
         )
         | .Phrases |= sort_by(.Phrase)
-    ' Phrases.json > tmp.json && save_file
+    ' "$json" > "$tempJson" && save_file
 }
 
-search_p() {
+serp() {
     local search_term="$1"
     jq --arg search_term "$search_term" '
         .Phrases[] | select(.Phrase | test($search_term; "i"))
-    ' Phrases.json
+    ' "$json"
 }
 
-
-cmd="$1"
-shift
-case "$cmd" in
-  new_p)   new_p "$@" ;;
-  new_v)   new_v "$@" ;;
-  new_pt)  new_pt "$@" ;;
-  del_p)   del_p "$@" ;;
-  del_v)   del_v "$@" ;;
-  search_p) search_p "$@" ;;
-  *) echo "Unknown command: $cmd" >&2; exit 1 ;;
-esac
+serv() {
+    local search_term="$1"
+    jq --arg search_term "$search_term" '
+        .Phrases[]
+        | select(.Variants[]? | test($search_term; "i"))
+    ' "$json"
+}

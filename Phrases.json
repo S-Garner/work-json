@@ -25,12 +25,20 @@
       "Phrase": "0-10V",
       "Variants": [
         "0-10V",
-        "0-10V dimming"
+        "0-10V dimming",
+        "standard 0-10V"
       ]
     },
     {
       "Phrase": "1\" stroke",
       "Variants": []
+    },
+    {
+      "Phrase": "1/4\"",
+      "Variants": [
+        "1/4\" thread"
+      ],
+      "Patterns": []
     },
     {
       "Phrase": "10% dimming",
@@ -56,6 +64,23 @@
       ]
     },
     {
+      "Phrase": "12\\\"x12\\\"",
+      "Variants": [],
+      "Patterns": []
+    },
+    {
+      "Phrase": "12\\\"x12\\\"",
+      "Variants": [],
+      "Patterns": []
+    },
+    {
+      "Phrase": "18\\\"",
+      "Variants": [
+        ""
+      ],
+      "Patterns": []
+    },
+    {
       "Phrase": "3.5 W",
       "Variants": [
         "3.5 watt",
@@ -78,13 +103,22 @@
     },
     {
       "Phrase": "45VL",
-      "Variants": []
+      "Variants": [
+        "45VL"
+      ]
     },
     {
       "Phrase": "50-60Hz",
       "Variants": [
         "50-60Hz",
         "50/60Hz"
+      ]
+    },
+    {
+      "Phrase": "50mm",
+      "Variants": [
+        "50mm",
+        "50 mm"
       ]
     },
     {
@@ -118,6 +152,7 @@
     {
       "Phrase": "CCT",
       "Variants": [
+        "CCT",
         "color temp"
       ],
       "Patterns": [
@@ -129,19 +164,44 @@
     {
       "Phrase": "CETL",
       "Variants": [
+        "CETL",
         "CETL listed",
         "CETL certified",
         "Canadian Electrical Testing Laboratories"
       ]
     },
     {
+      "Phrase": "CRI",
+      "Variants": [
+        "CRI",
+        "color rendering index"
+      ],
+      "Patterns": []
+    },
+    {
+      "Phrase": "CSA",
+      "Variants": [
+        "certified to CSA",
+        "CSA"
+      ],
+      "Patterns": []
+    },
+    {
+      "Phrase": "CSA22.2",
+      "Variants": [
+        "CSA22.2"
+      ],
+      "Patterns": []
+    },
+    {
       "Phrase": "Color",
       "Variants": [
         "White",
         "black",
+        "matte black",
         "metallic silver",
-        "silver",
-        "matte black"
+        "powder coated",
+        "silver"
       ],
       "Patterns": [
         "* finish",
@@ -149,10 +209,6 @@
         "#### KELVIN",
         "###nm"
       ]
-    },
-    {
-      "Phrase": "ER45VXL",
-      "Variants": []
     },
     {
       "Phrase": "ETL",
@@ -165,13 +221,23 @@
     {
       "Phrase": "HID",
       "Variants": [
+        "HID",
         "high intensity discharge"
       ]
     },
     {
       "Phrase": "IBC",
       "Variants": [
-        "international building code"
+        "international building code",
+        "IBC"
+      ]
+    },
+    {
+      "Phrase": "IC",
+      "Variants": [
+        "IC",
+        "IC housing",
+        "insulation contact"
       ]
     },
     {
@@ -198,12 +264,26 @@
       ]
     },
     {
+      "Phrase": "L70",
+      "Variants": [
+        "L70"
+      ]
+    },
+    {
       "Phrase": "LED",
       "Variants": [
         "LED light",
         "LED lighting",
         "LED lamp"
       ]
+    },
+    {
+      "Phrase": "LPW",
+      "Variants": [
+        "LPW",
+        "lumens per watt"
+      ],
+      "Patterns": []
     },
     {
       "Phrase": "Lumen",
@@ -224,6 +304,7 @@
     {
       "Phrase": "NEMA",
       "Variants": [
+        "NEMA",
         "NEMA 1"
       ]
     },
@@ -247,6 +328,13 @@
         "National Electric Code",
         "NEC 70"
       ]
+    },
+    {
+      "Phrase": "NO.250.0",
+      "Variants": [
+        "NO.250.0"
+      ],
+      "Patterns": []
     },
     {
       "Phrase": "NOL",
@@ -284,6 +372,16 @@
       ]
     },
     {
+      "Phrase": "SDCM",
+      "Variants": [
+        "standard deviation colour matching"
+      ],
+      "Patterns": [
+        "<# SDCM",
+        "># SDCM"
+      ]
+    },
+    {
       "Phrase": "Single output",
       "Variants": [
         "Single output circuit breaker"
@@ -313,7 +411,8 @@
       "Phrase": "UL1598",
       "Variants": [
         "UL 1598",
-        "UL1598"
+        "UL1598",
+        "UL1598 standard"
       ]
     },
     {
@@ -340,13 +439,21 @@
       ]
     },
     {
+      "Phrase": "acoustic",
+      "Variants": [
+        "acoustic",
+        "acoustic ceiling"
+      ]
+    },
+    {
       "Phrase": "aluminum",
       "Variants": [
         "die-cast aluminum",
         "die cast aluminum",
         "brushed aluminum",
         "satin aluminum",
-        "extruded aluminum"
+        "extruded aluminum",
+        "aluminum blocking"
       ]
     },
     {
@@ -375,11 +482,26 @@
       ]
     },
     {
+      "Phrase": "axis",
+      "Variants": [
+        "dual axis",
+        "axis adjustable",
+        "axis"
+      ]
+    },
+    {
       "Phrase": "battery",
       "Variants": [
         "nickle cadmium battery",
         "battery back up",
         "nickle metal hydride battery"
+      ]
+    },
+    {
+      "Phrase": "brackets",
+      "Variants": [
+        "brackets",
+        "butterfly brackets"
       ]
     },
     {
@@ -390,12 +512,17 @@
     },
     {
       "Phrase": "california energy commission",
-      "Variants": []
+      "Variants": [
+        "CEC",
+        "california energy commission"
+      ]
     },
     {
       "Phrase": "ceiling mount",
       "Variants": [
-        "ceiling mounting"
+        "ceiling mounting",
+        "ceiling",
+        "ceiling structure"
       ]
     },
     {
@@ -405,8 +532,43 @@
       ]
     },
     {
+      "Phrase": "corner",
+      "Variants": [
+        "",
+        "mitered corner"
+      ],
+      "Patterns": []
+    },
+    {
       "Phrase": "corridor",
-      "Variants": []
+      "Variants": [
+        "corridor"
+      ]
+    },
+    {
+      "Phrase": "diameter",
+      "Variants": [
+        "dia."
+      ],
+      "Patterns": [
+        "##\"(dia.)",
+        "###\"(dia.)"
+      ]
+    },
+    {
+      "Phrase": "dimming",
+      "Variants": [
+        "dimming",
+        "dimmable"
+      ],
+      "Patterns": []
+    },
+    {
+      "Phrase": "dimming range",
+      "Variants": [
+        "100-1%"
+      ],
+      "Patterns": []
     },
     {
       "Phrase": "discrete area",
@@ -415,8 +577,16 @@
       ]
     },
     {
+      "Phrase": "drywall",
+      "Variants": [
+        "drywall"
+      ]
+    },
+    {
       "Phrase": "dual voltage",
-      "Variants": []
+      "Variants": [
+        "dual voltage"
+      ]
     },
     {
       "Phrase": "emergency",
@@ -436,11 +606,32 @@
     },
     {
       "Phrase": "faceplate",
-      "Variants": []
+      "Variants": [
+        "faceplate"
+      ]
+    },
+    {
+      "Phrase": "fixture",
+      "Variants": [
+        "fixture",
+        "fixture head"
+      ]
     },
     {
       "Phrase": "flame rated",
-      "Variants": []
+      "Variants": [
+        "flame rated",
+        "flame rating",
+        "fire rated",
+        "fire rating"
+      ]
+    },
+    {
+      "Phrase": "flange",
+      "Variants": [
+        "flange",
+        "flangeless"
+      ]
     },
     {
       "Phrase": "fluorescent",
@@ -466,7 +657,9 @@
     },
     {
       "Phrase": "free standing",
-      "Variants": []
+      "Variants": [
+        "free standing"
+      ]
     },
     {
       "Phrase": "frequency",
@@ -482,6 +675,24 @@
       ]
     },
     {
+      "Phrase": "gimbal",
+      "Variants": [
+        "double gimbal",
+        "gimbal"
+      ],
+      "HREF": [
+        "https://www.3glighting.com/File/Product/679/3G-38RMSL.pdf"
+      ]
+    },
+    {
+      "Phrase": "glare",
+      "Variants": [
+        "glare",
+        "glare control"
+      ],
+      "Patterns": []
+    },
+    {
       "Phrase": "high bay",
       "Variants": [
         "high bay"
@@ -490,7 +701,9 @@
     {
       "Phrase": "housing",
       "Variants": [
+        "cold rolled steel",
         "housing",
+        "steel housing",
         "thermoplastic housing"
       ]
     },
@@ -511,7 +724,9 @@
     },
     {
       "Phrase": "knockout",
-      "Variants": []
+      "Variants": [
+        "knockout"
+      ]
     },
     {
       "Phrase": "linear",
@@ -526,11 +741,13 @@
         "load power factor correction"
       ],
       "Patterns": [
-        "#.# lead",
-        "#.# lag",
-        "##.# lead",
         "##.# lag",
-        "#.# lead to #.# lag"
+        "##.# lead",
+        "#.# lag",
+        "#.# lead",
+        "#.# lead to #.# lag",
+        "<#.#",
+        ">#.#"
       ]
     },
     {
@@ -539,6 +756,15 @@
         "low voltage protection",
         "low voltage disconnect",
         "LVD"
+      ]
+    },
+    {
+      "Phrase": "lumen",
+      "Variants": [
+        "lumen"
+      ],
+      "Patterns": [
+        "####lm"
       ]
     },
     {
@@ -558,6 +784,14 @@
       ]
     },
     {
+      "Phrase": "mud",
+      "Variants": [
+        "mud",
+        "mudding",
+        "mud-in"
+      ]
+    },
+    {
       "Phrase": "noise",
       "Variants": [
         "noise less",
@@ -570,12 +804,27 @@
       ]
     },
     {
+      "Phrase": "optics",
+      "Variants": [
+        "optics"
+      ],
+      "Patterns": []
+    },
+    {
       "Phrase": "overcharge",
       "Variants": [
         "overcharge protection",
         "overload",
         "overload rating"
       ]
+    },
+    {
+      "Phrase": "pattern",
+      "Variants": [
+        "custom pattern",
+        "pattern shape"
+      ],
+      "Patterns": []
     },
     {
       "Phrase": "plane",
@@ -672,14 +921,6 @@
       ]
     },
     {
-      "Phrase": "test_02",
-      "Variants": [
-        "example_variant",
-        "example_variant_2"
-      ],
-      "Patterns": []
-    },
-    {
       "Phrase": "thru-wall",
       "Variants": [
         "thru wall"
@@ -698,6 +939,16 @@
       "Variants": [
         "isolation transformer",
         "isolating transformer"
+      ]
+    },
+    {
+      "Phrase": "trim",
+      "Variants": [
+        "trim",
+        "trim fixture",
+        "trim mounting",
+        "trimless",
+        "trimming"
       ]
     },
     {
@@ -777,6 +1028,14 @@
         "damp location",
         "damp locations"
       ]
+    },
+    {
+      "Phrase": "wood",
+      "Variants": [
+        "wood",
+        "wood trim"
+      ],
+      "Patterns": []
     },
     {
       "Phrase": "zinc",
