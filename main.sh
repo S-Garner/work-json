@@ -7,6 +7,8 @@ tempJson="$SCRIPT_DIR/tmp.json"
 
 save_file() {
     mv "$tempJson" "$json"
+
+    jq -c -M . "$json" > "$tempJson" && mv "$tempJson" "$json"
 }
 
 newp() {

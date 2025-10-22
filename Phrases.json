@@ -1,45 +1,13 @@
 {
   "IgnorePhrases": [
-    {
-      "Phrase": "All rights reserved",
-      "Variants": [
-        "All rights reserved"
-      ]
-    },
-    {
-      "Phrase": "High performance",
-      "Variants": [
-        "High performance"
-      ]
-    },
-    {
-      "Phrase": "subject to change without notice",
-      "Variants": [
-        "subject to change without notice",
-        "Information and specifications subject to change without notice"
-      ]
-    }
+    { "Phrase": "All rights reserved", "Variants": [ "All rights reserved"] },
+    { "Phrase": "High performance", "Variants": ["High performance"] },
+    { "Phrase": "subject to change without notice", "Variants": ["subject to change without notice", "Information and specifications subject to change without notice"]}
   ],
   "Phrases": [
-    {
-      "Phrase": "0-10V",
-      "Variants": [
-        "0-10V",
-        "0-10V dimming",
-        "standard 0-10V"
-      ]
-    },
-    {
-      "Phrase": "1\" stroke",
-      "Variants": []
-    },
-    {
-      "Phrase": "1/4\"",
-      "Variants": [
-        "1/4\" thread"
-      ],
-      "Patterns": []
-    },
+    { "Phrase": "0-10V", "Variants": [ "0-10V", "0-10V dimming", "standard 0-10V"] },
+    { "Phrase": "1\" stroke", "Variants": [] },
+    { "Phrase": "1/4\"", "Variants": [ "1/4\" thread" ], "Patterns": [] },
     {
       "Phrase": "10% dimming",
       "Variants": [
